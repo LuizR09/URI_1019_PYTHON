@@ -3,7 +3,7 @@ URI 1019
 Age in Days - PYTHON
 ...
 
-#Quantity in days/Quantidade em dias:
+#Input of quantity in days/Inserção da quantidade em dias:
 T=int(input())
 
 #Quantity in year/Quantidade em anos:
