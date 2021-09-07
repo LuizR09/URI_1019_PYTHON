@@ -1,0 +1,22 @@
+...
+URI 1019
+Age in Days - PYTHON
+...
+
+#Quantity in days/Quantidade em dias:
+T=int(input())
+
+#Quantity in year/Quantidade em anos:
+A=int(T/365)
+T=T-A*365
+
+#Quantity in months/Quantidade em meses:
+M=int(T/30)
+T=T-M*30
+
+#Quatity in days/quantidade em dias:
+D=int(T)
+
+print(f"{A} ano(s)")
+print(f"{M} mes(es)")
+print(f"{D} dia(s)")
