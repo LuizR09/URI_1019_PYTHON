@@ -1,0 +1,59 @@
+...
+URI 1020
+Banknotes and Coins - PYTHON
+...
+
+#Input of a float value/inserção de um valor float:
+Q=float(input())
+
+#NOTAS/NOTES:
+N100=Q//100
+Q= Q-N100*100
+
+N50=Q//50
+Q=Q-N50*50
+
+N20=Q//20
+Q=Q-N20*20
+
+N10=Q//10
+Q=Q-N10*10
+
+N5=Q//5
+Q=Q-N5*5
+
+N2=Q//2
+Q=Q-N2*2
+
+#MOEDAS/COINS:
+C1=Q//1
+Q=Q-C1*1
+
+C50=Q//0.50
+Q=Q-C50*0.50
+
+C25=Q//0.25
+Q=Q-C25*0.25
+
+C10=Q//0.10
+Q=Q-C10*0.10
+
+C05=Q//0.05
+Q=Q-C05*0.05
+
+C01=Q//0.01
+
+print("NOTAS:")
+print(f"{int(N100)} nota(s) de R$ 100.00")
+print(f"{int(N50)} nota(s) de R$ 50.00")
+print(f"{int(N20)} nota(s) de R$ 20.00")
+print(f"{int(N10)} nota(s) de R$ 10.00")
+print(f"{int(N5)} nota(s) de R$ 5.00")
+print(f"{int(N2)} nota(s) de R$ 2.00")
+print("MOEDAS:")
+print(f"{int(C1)} moeda(s) de R$ 1.00")
+print(f"{int(C50)} moeda(s) de R$ 0.50")
+print(f"{int(C25)} moeda(s) de R$ 0.25")
+print(f"{int(C10)} moeda(s) de R$ 0.10")
+print(f"{int(C05)} moeda(s) de R$ 0.05")
+print(f"{int(C01)} moeda(s) de R$ 0.01")
